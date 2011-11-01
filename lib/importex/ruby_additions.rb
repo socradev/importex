@@ -1,3 +1,5 @@
+require 'active_support/core_ext/string'
+
 class Integer
   def self.importex_value(str)
     unless str.blank?
